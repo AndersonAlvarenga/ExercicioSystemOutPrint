@@ -15,6 +15,6 @@ public class Programa {
 		System.out.printf("%s , whitch price is $ %.2f%n%n", product2, price2);
 		System.out.printf("Record: %d year old, code %d and gender: %c %n%n", age, code, gender);
 		System.out.printf("Rouded (three decimal places): %.3f%n", measure);
-		System.out.printf("US decimal point: %.3f",measure);
+		System.out.printf("US decimal point: %.3f",measure);//utilizado printf para formatar a string %.2f para colocar 2 casas apos a virgula
 	}
 }
